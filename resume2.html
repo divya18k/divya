@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Resume</title>
+<meta name="description" content="This is a sample resume">
+<style>
+    body {
+        background-color: #ccc;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #main {
+        background-color: white;
+        width: 50%;
+        padding: 40px;
+        margin: 40px auto;
+       /* border-radius: 10px;*/
+        overflow: hidden; /* Added overflow to contain floated image */
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    }
+    #picture {
+        float: left;
+        border: 2px solid pink;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        width: 150px; /* Adjust the size as needed */
+        height: 150px; /* Ensure width and height are equal for a perfect circle */
+        border-radius: 50%; /* Makes the container circular */
+        margin-right: 20px; /* Added margin for spacing */
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 10px; /* Added margin bottom for spacing */
+    }
+    h3 {
+        color: orangered;
+        margin-top: 20px; /* Added margin top for spacing */
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%; /* Full width of container */
+        margin-top: 10px; /* Added margin top for spacing */
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    table.a {
+        table-layout: auto;
+    }
+    p {
+        margin-bottom: 10px; /* Added margin bottom for spacing */
+    }
+    .name-container {
+        flex: 1; /* Grow to take remaining space */
+    }
+    .name-container h1 {
+        margin: 0; /* Remove default margin */
+        text-align: center; /* Center align the name */
+    }
+</style>
+</head>
+<body>
+<section id="main">
+    <img id="picture" src="img.jpg" width="15%" alt="Profile Picture">
+    <br>
+    <br>
+    <div class="name-container"><h1 style="text-align: left;"><b>DIVYASRI </b><b style="color: orangered;">KANNOJU</b></h1></div>
+    <p>+91 9515050718</p>
+    <p ></p><a href = #>divyasrikannoju18@gmail.com</a></p>
+    <br>
+    <br>
+    <h3>OBJECTIVE</h3>
+    <p>Aspiring Computer Science student seeking hands-on experience in software development. Strong programming skills and passion for solving complex problems, eager to contribute to innovative projects in a collaborative team environment.</p>
+    <h3>ACADEMIC DETAILS</h3>
+    <table class="a">
+        <tr>
+            <th>CLASS</th>
+            <th>BOARD</th>
+            <th>PERCENTAGE</th>
+        </tr>
+        <tr>
+            <td>10th</td>
+            <td>SSC board</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>Diploma</td>
+            <td>SBTET</td>
+            <td>8.89</td>
+        </tr>
+        <tr>
+            <td>BTech</td>
+            <td>JNTUH</td>
+            <td>7.02</td>
+        </tr>
+    </table>
+    <h3>PROJECTS</h3>
+    <p><b>YOLO-EXTRACT for Aircraft Object Detection</b></p>
+    <p>To utilize YOLOv5 for aircraft object detection, start by gathering aircraft images for a dataset and annotating them with bounding boxes. Customize the YOLOv5 configuration for aircraft, then train the model on the annotated dataset. Evaluate the model's performance metrics and adjust parameters for accuracy.</p>
+    <p><b>Forecasting Crop Yield Using Machine Learning</b></p>
+    <p>Applied machine learning techniques to forecast crop yield, aiming to improve agricultural productivity.</p>
+    <p><b>Wireless Remote Controlled Car</b></p>
+    <p>It uses simple Integrated Circuits (IC) and is controlled wirelessly by a remote controller.</p>
+    <h3>CERTIFICATES</h3>
+    <p><ul>
+        <li>Participated in Training & Zonal Championship Event held at TRR College.</li>
+        <li>Completed Diploma Industrial Training in the area of PCB desigining(Schematic), Soldering and Testing.</li>
+        <li>HackerRank SQL (Basic) Certification, Successfully cleared the assessment for SQL skills.</li>
+        <li>Certified for completing all the lessons and projects of Python by CodeChef.</li>
+    </ul></p>
+    <h3>TECHNICAL SKILLS</h3>
+    <p><ul>
+        <li>Core java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>React js</li>
+        <li>Node js</li>
+        <li>SQL</li>
+    </ul></p>
+</section>
+</body>
+</html>
+
